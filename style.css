@@ -1,0 +1,46 @@
+
+.container_clock{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color:aquamarine;
+  border-radius: 20px;
+  flex-wrap:wrap;
+  gap: 3vh;
+  border: 1.5vh solid red;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.time{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  background-color:antiquewhite;
+  font-size: 11.5vh;
+  color: darkblue;
+  
+}
+
+
+.date{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 10%;
+  background-color:brown;
+  color:wheat;
+  height: 5vh;
+  width: 15vh;
+  border: 5px black dashed;
+  font-size: 3vh;
+
+}
